@@ -1,0 +1,17 @@
+{
+    "name": "sectheater/php-mvc",
+    "autoload": {
+        "classmap": ["./"],
+        "psr-4": {
+        "app\\":"app",
+        "Sectheater\\":"src",
+        "config\\":"config"
+
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "symfony/var-dumper": "^6.3"
+    }
+    
+}
